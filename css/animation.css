@@ -1,0 +1,69 @@
+/* Thiết lập bố cục trung tâm */
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Base của các chấm  */
+.dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* Các chấm màu đen chuyển động (pseudo-elements) */
+.dot::before,
+.dot::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+    animation: spin 3s ease-in-out infinite;
+}
+
+
+.dot::before {
+    /* Mỗi chấm cách nhau 0.2s */
+    animation-delay: calc(var(--i) * 0.2s);
+}
+
+.dot::after {
+    /* Lớp sau chạy trễ hơn lớp trước 1.2s */
+    animation-delay: calc(var(--i) * 0.2s + 1.2s);
+}
+
+/* Hiệu ứng di chuyển và phóng to/thu nhỏ */
+@keyframes spin {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.5;
+    }
+
+    25% {
+        transform: translateY(-30px) scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(-70px) scale(1);
+        opacity: 0.5;
+    }
+
+    75% {
+        transform: translateY(0) scale(1.2);
+        opacity: 1;
+    }
+}
