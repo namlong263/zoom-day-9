@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0;
+}
+
+
+.report-container {
+    background-color: white;
+    width: 100%;
+    max-width: 950px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.report-header {
+    text-align: center;
+    padding: 20px 0 15px 0;
+    border-bottom: 2px solid black;
+}
+
+.title-line {
+    margin: 3px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.year-line {
+    margin-top: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    border: 2px solid black;
+    padding: 8px 10px;
+    font-size: 16px;
+    color: black;
+    vertical-align: middle;
+}
+
+.data-table th {
+    text-align: center;
+}
+
+.col-ethnicity {
+    width: 25%;
+}
+
+.col-num {
+    width: 7%;
+}
+
+.col-pct {
+    width: 8%;
+}
+
+/* Căn lề dữ liệu */
+.text-col {
+    text-align: left;
+    padding-left: 12px;
+}
+
+.val-col {
+    text-align: right;
+    padding-right: 12px;
+}
