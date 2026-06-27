@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Table</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/admin-table.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Business Listing</th>
+                    <th class="text-center">Start Date</th>
+                    <th class="text-center">Vendor ID</th>
+                    <th class="text-center">Status</th>
+                    <th class="text-center">Region</th>
+                    <th class="text-center">Posts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-1.png" alt="Avatar 1"
+                                    class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Krusty Krab Ltd.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">8/21/15</td>
+                    <td>765594</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>Canada (Central)</td>
+                    <td class="text-right">70</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-2.png" alt="Avatar 2"
+                                    class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">NetRangler Inc.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">5/7/16</td>
+                    <td>558612</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>US East (Ohio)</td>
+                    <td class="text-right">41</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-3.png" alt="Avatar 3"
+                                    class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">ChumHum Ltd.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">5/19/12</td>
+                    <td>665137</td>
+                    <td class="text-center"><span class="status-badge status-not-found">Not Found</span></td>
+                    <td>EU (Ireland)</td>
+                    <td class="text-right">46</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-4.png" alt="Avatar 4"
+                                    class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Rich Industries Co.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">9/4/12</td>
+                    <td>520015</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>EU (London)</td>
+                    <td class="text-right">15</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-5.png" alt="Avatar 5"
+                                    class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Wayne Industries Co.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">6/19/14</td>
+                    <td>204349</td>
+                    <td class="text-center"><span class="status-badge status-not-found">Not Found</span></td>
+                    <td>EU (Stockholm)</td>
+                    <td class="text-right">33</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-1.png" alt="Avatar 1" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Krusty Krab Ltd.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">8/21/15</td>
+                    <td>765594</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>Canada (Central)</td>
+                    <td class="text-right">70</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-2.png" alt="Avatar 2" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">NetRangler Inc.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">5/7/16</td>
+                    <td>558612</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>US East (Ohio)</td>
+                    <td class="text-right">41</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-3.png" alt="Avatar 3" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">ChumHum Ltd.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">5/19/12</td>
+                    <td>665137</td>
+                    <td class="text-center"><span class="status-badge status-not-found">Not Found</span></td>
+                    <td>EU (Ireland)</td>
+                    <td class="text-right">46</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-4.png" alt="Avatar 4" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Rich Industries Co.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">9/4/12</td>
+                    <td>520015</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>EU (London)</td>
+                    <td class="text-right">15</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-5.png" alt="Avatar 5" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Wayne Industries Co.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">6/19/14</td>
+                    <td>204349</td>
+                    <td class="text-center"><span class="status-badge status-not-found">Not Found</span></td>
+                    <td>EU (Stockholm)</td>
+                    <td class="text-right">33</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-1.png" alt="Avatar 1" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Krusty Krab Ltd.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">8/21/15</td>
+                    <td>765594</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>Canada (Central)</td>
+                    <td class="text-right">70</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-2.png" alt="Avatar 2" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">NetRangler Inc.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">5/7/16</td>
+                    <td>558612</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>US East (Ohio)</td>
+                    <td class="text-right">41</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-3.png" alt="Avatar 3" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">ChumHum Ltd.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">5/19/12</td>
+                    <td>665137</td>
+                    <td class="text-center"><span class="status-badge status-not-found">Not Found</span></td>
+                    <td>EU (Ireland)</td>
+                    <td class="text-right">46</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-4.png" alt="Avatar 4" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Rich Industries Co.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">9/4/12</td>
+                    <td>520015</td>
+                    <td class="text-center"><span class="status-badge status-active">Active</span></td>
+                    <td>EU (London)</td>
+                    <td class="text-right">15</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="business-info">
+                            <div class="avatar-wrapper">
+                                <img src="./img/img-avatar-5.png" alt="Avatar 5" class="avatar">
+                                <div class="verified-badge">
+                                    <svg viewBox="0 0 24 24" fill="white" width="10px" height="10px">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <span class="business-name">Wayne Industries Co.</span>
+                        </div>
+                    </td>
+                    <td class="text-right">6/19/14</td>
+                    <td>204349</td>
+                    <td class="text-center"><span class="status-badge status-not-found">Not Found</span></td>
+                    <td>EU (Stockholm)</td>
+                    <td class="text-right">33</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

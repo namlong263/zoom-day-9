@@ -16,7 +16,7 @@ body {
     width: 100%;
     max-width: 950px;
     border: 2px solid black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .report-header {

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 1200px;
+    overflow-x: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+
+
+th,
+td {
+    border: 1px solid #e0e0e0;
+    padding: 14px 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+th {
+    background-color: #9c9999c9;
+    font-weight: 700;
+    color: #111111;
+}
+
+th:hover {
+    opacity: 0.8;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ece8e8;
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+    opacity: 0.8;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.business-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar-wrapper {
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #fce4e4;
+}
+
+
+.verified-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background-color: #1d4ed8;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-name {
+    font-weight: 400;
+    color: #444444;
+}
+
+
+.status-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.status-active {
+    background-color: #c2e0c6;
+    color: #0e9210;
+}
+
+.status-not-found {
+    background-color: #e8e2c8;
+    color: #bcbc27;
+}
